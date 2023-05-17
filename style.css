@@ -52,7 +52,7 @@ h2 {
 }
 
 #ironImage img {
-    width: 40%;
+    width: 25rem;
     animation: animated 50s ease infinite;
 }
 
@@ -93,7 +93,7 @@ h2 {
 }
 
 button {
-    width: 6%;
+    width: 5rem;
     min-height: 15%;
     display: flex;
     justify-content: center;
