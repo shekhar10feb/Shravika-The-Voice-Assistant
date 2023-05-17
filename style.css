@@ -1,0 +1,130 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 3vmin;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #000;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+h2 {
+   width: 90%;
+   text-align: center;
+   font-size: 1.6rem;
+   margin: 1rem auto;
+}
+
+#main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('./images/backy.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* background-size: 300px; */
+    font-family: "Lucida Console", "Courier New", monospace;
+/*     border: 1px solid #fff; */
+}
+
+#ironImage {
+    width: 90%;
+    /* min-height: 25vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #fff; */
+}
+
+#ironImage img {
+    width: 40%;
+    animation: animated 50s ease infinite;
+}
+
+@keyframes animated {
+    0% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+#firstDiv {
+    width: 90%;
+    min-height: 17vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Lucida Console", "Courier New", monospace;
+    /* border: 1px solid green; */
+}
+
+#secondDiv {
+    width: 90%;
+    min-height: 33%;
+    color: grey;
+    position: relative; 
+    bottom: -9%;
+    padding: 0.5rem;
+    line-height: 1.5;
+    /* border: 1px solid red; */
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+button {
+    width: 6%;
+    min-height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background: green;
+    color: #fff;
+    font-weight: 400;
+    margin: 0.4rem auto;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .2s ease;
+    /* border: 1px solid #fff;
+    border-radius: 4px; */
+}
+
+button:hover {
+  transform: translateY(2px);
+  background: purple;
+  width: 7%;
+}
+
+button img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+p {
+  width: 100%;
+  margin: 0.1rem;
+}
