@@ -45,8 +45,8 @@ recognition.onresult = function (event) {
         window.open("https://www.marsmanufacturers.com");
         // console.log("hello sir");
     }
-    if(transcript.includes("are bhai, shekhar bhaiya ki shadi ke baare me to batao.")) {
-        readOut("ha, shekhar bhaiya ki shaadi twenty-one may ko hone waali hai aur prabhat bhaiya ki shaadi november-december me hogi. kripya dono shaadi mein jarur aaye.");
+    if(transcript.includes("tell me about shekhar marriage")) {
+        readOut("ha, shekhar bro ki shaadi twenty-one may ko hone waali hai aur prabhat bro ki shaadi november-december me hogi. kripya dono brothers' ki shaadi mein jarur aaye.");
     }
 
     // readOut(transcript);
